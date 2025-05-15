@@ -17,6 +17,7 @@ app.get("/climate-crisis", (req, res) => {
   res.redirect("https://github.com/megharai-prog/climate-crisis");
 });
 
+
 // Route for Typesetting
 app.get("/typesetting", (req, res) => {
   res.redirect("https://github.com/megharai-prog/st-huxley-college");
