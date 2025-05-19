@@ -12,21 +12,18 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-// Route for Climate Crisis
 app.get("/climate-crisis", (req, res) => {
-  res.redirect("https://github.com/megharai-prog/climate-crisis");
+  res.redirect("https://github.com/Megharai-Prog/climate-crisis");
 });
 
-
-// Route for Typesetting
 app.get("/typesetting", (req, res) => {
-  res.redirect("https://github.com/megharai-prog/st-huxley-college");
+  res.redirect("https://github.com/Megharai-Prog/st-huxley-college");
 });
 
-// Route for Four Algorithms
 app.get("/four-algorithms", (req, res) => {
-  res.redirect("https://github.com/megharai-prog/four-algorithms");
+  res.redirect("https://github.com/Megharai-Prog/four-algorithms");
 });
+
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
