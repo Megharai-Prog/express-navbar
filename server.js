@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/climate-crisis", (req, res) => {
-  res.redirect("https://github.com/Megharai-Prog/climate-crisis-21");
+  res.redirect("https://github.com/Megharai-Prog/climate-crisis");
 });
 
 app.get("/typesetting", (req, res) => {
