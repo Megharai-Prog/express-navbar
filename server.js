@@ -21,7 +21,7 @@ app.get("/typesetting", (req, res) => {
 });
 
 app.get("/four-algorithms", (req, res) => {
-  res.redirect("https://github.com/Megharai-Prog/four-algorithms");
+  res.redirect("https://github.com/Megharai-Prog/Sorting-algorithm");
 });
 
 
